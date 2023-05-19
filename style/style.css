@@ -1,0 +1,28 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-image: url(/imgs/background.jpg);
+    background-size: 100%;
+}
+
+header {
+    background-color: #0D4F6B;
+    width: auto;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 20px 40vmax;
+}
+
+.button-size {
+    width: 22px;
+    height: 20px;
+}
+
+.minor-box-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
