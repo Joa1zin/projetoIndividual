@@ -4,8 +4,8 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="/Reset CSS/reset.css" rel="stylesheet" />
-        <link href="/style/style.css" rel="stylesheet" />
+        <link href="./Reset CSS/reset.css" rel="stylesheet" />
+        <link href="./style/style.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet" />
@@ -14,37 +14,33 @@
     </head>
 
     <body>
-        <header>
-            <nav>   
-                <div class="box-buttons">
-                        <ul class="list-buttons">
-                            <div class="minor-box-buttons">
-                                <li>
-                                    <a class="button-home" href="#home">
-                                        <img class="button-size" src="/imgs/home.png"/>
-                                    </a>
-                                </li>
-                            <li>
-                                <a class="button-user" href="#user">
-                                    <img class="button-size" src="/imgs/user.png"/>
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a class="button-hobbies" href="#hobbies">
-                                    <img class="button-size" src="/imgs/info.png"/>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a class="button-contact" href="#contact">
-                                    <img class="button-size" src="/imgs/envelope.png"/>
-                                </a>
-                            </li>
-                        </div>
+        <header id="header">
+            <div class="box-buttons">   
+                <nav id="navigation">
+                    <ul class="list-buttons">
+                        <li>
+                            <a class="button-home" href="#home">
+                                <img class="button-size" src="/imgs/home.png"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="button-user" href="#user">
+                                <img class="button-size" src="/imgs/user.png"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="button-hobbies" href="#hobbies">
+                                <img class="button-size" src="/imgs/info.png"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="button-contact" href="#contact">
+                                <img class="button-size" src="/imgs/envelope.png"/>
+                            </a>
+                        </li>
                     </ul>
-                </div>  
-            </nav>
+                </nav>  
+            </div>
         </header>
 
         <main>
@@ -57,9 +53,39 @@
                 </div>
             </section>
 
-            <section id="user"></section>
-            <section id="hobbies"></section>
-            <section id="contact"></section>
+            <section id="user">
+                <div class="box-user-infos"> 
+                    <p class="my-infos">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum aliquid excepturi error officia, odio nemo exercitationem, maiores laboriosam earum tempore aspernatur vitae animi dolor ipsam reiciendis quod labore facilis deserunt?
+                    </p>
+                </div>
+                <div class="box-border-photo">
+                    <img class="my-photo" src="/imgs/Minha foto.jpeg">
+                </div>
+            </section>
+
+            <section id="hobbies">
+                <div class="box-photo-hobbies">
+
+                </div>
+            </section>
+            
+            <section id="contact">
+                <div class="box-contact">
+                    <div class="box-name">
+                        <form id="name"></form>
+                    </div>
+                        
+                    <div class="box-email">
+                        <form id="email"></form>
+                    </div>
+                        
+                    <div class="box-message">
+                        <form id="message"></form>
+                    </div>
+                    <button type="button" onclick="alert('Form sent!')">Submit</button>
+                </div>
+            </section>
 
         </main>
 
