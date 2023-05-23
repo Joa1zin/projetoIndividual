@@ -5,13 +5,70 @@
 body {
     margin: 0;
     background-image: url(/imgs/background.jpg);
-    background-size: 100%;
+    background-size: 100vmax;
 }
 /* ----------------HEADER--------------------- */
 
+header {
+    background-color: #0D4F6B;
+    width: auto;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin: 20px 40vmax;
+}
+
+.box-buttons {
+    background-color: #4D98B8;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    border-radius: 50px;
+    padding-left: 3px;
+    padding-right: 2px;
+}
+
+.button-size {
+    width: 22px;
+    height: 20px;
+}
+
+.list-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 /* -----------------HOME-SECTION------------ */
+.box-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 60px;
+}
+
+.box-border-photo {
+    height: 222px;
+    width: 212px;
+    margin-top: 70px;
+    border: #0D4F6B solid 7px;
+    border-radius: 100%;
+}
+
+.my-photo {
+    width: 202px;
+    height: 211px;
+    border: #4D98B8 solid 6px;
+    border-radius: 100%;
+}
+
+#home-text{
+    color: white;
+    font-size: 50px;
+}
 
 /* ----------------USER-SECTION------------------ */
+
+
 
 /*----------------HOBBIES-SECTION-----------------*/
 
