@@ -2,61 +2,64 @@
     font-family: 'Kanit', sans-serif;
 }
 
-body {
-    margin: 0;
-    background-image: url(/imgs/background.jpg);
-    background-size: 100vmax;
+body,html {
+    scroll-behavior: smooth;
+    overflow: hidden;
 }
+
 /* ----------------HEADER--------------------- */
 
 header {
-    background-color: #0D4F6B;
-    width: auto;
+    background-color: #0D4F6B; 
     border-radius: 25px;
     padding: 10px 15px;
-    margin: 20px 40vmax;
+    position: fixed; 
+    margin-left: 43%;
 }
 
 .box-buttons {
     background-color: #4D98B8;
-    padding-top: 6px;
-    padding-bottom: 4px;
-    border-radius: 50px;
-    padding-left: 3px;
-    padding-right: 2px;
-}
+    margin: 5px;
+    padding: 8px 5px;
+    border-radius: 20px;
 
-.button-size {
-    width: 22px;
-    height: 20px;
 }
 
 .list-buttons {
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     gap: 20px;
 }
 
+.button-size {
+    width: 20px;
+    height: 18px;
+}
+
 /* -----------------HOME-SECTION------------ */
+#home {
+    height: 100vh;
+    background-image: url(/imgs/background.jpg);
+    background-size: 100vmax;
+}
 .box-home {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
-    gap: 60px;
+    margin: auto;
+    gap: 80px;
 }
 
 .box-border-photo {
-    height: 222px;
-    width: 212px;
-    margin-top: 70px;
+    width: 160px;
+    height: 180px;
+    margin-top: 150px;
     border: #0D4F6B solid 7px;
     border-radius: 100%;
 }
 
 .my-photo {
-    width: 202px;
-    height: 211px;
+    width: 150px;
+    height: 170px;
     border: #4D98B8 solid 6px;
     border-radius: 100%;
 }
@@ -67,11 +70,196 @@ header {
 }
 
 /* ----------------USER-SECTION------------------ */
+#user {
+    height: 100vh;
+    background-image: url(/imgs/background.jpg);
+    background-size: 100vmax;
+    
+}
 
+.father-box-user {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
 
+.my-photo-2 {
+    width: 150px;
+    height: 170px;
+    border: #4D98B8 solid 6px;
+    border-radius: 100%;
+}
 
+.box-user-infos {
+    background-color: rgba(245, 245, 245, 0.692);
+    width: 50vw;
+    height: 45vh;
+    border-radius: 15px;
+}
+
+.my-infos {
+    padding: 15px ;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.box-border-photo-2 {
+    width: 160px;
+    height: 180px;
+    margin-top: 30px;
+    border: #0D4F6B solid 7px;
+    border-radius: 100%;
+}
 /*----------------HOBBIES-SECTION-----------------*/
+#hobbies {
+    height: 100vh;
+    background-image: url(/imgs/background.jpg);
+    background-size: 100vmax;
+}
+
+.father-box-hobbies {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 50px;
+    
+}
+
+.box-hobbies-photo {
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 37vw;
+    height: 70vh;
+    border-radius: 15px;
+    padding-left: 60px;
+    padding-top: 5%;
+}
+
+.photo-1{
+    width: 42%;
+    height: 42%;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.photo-2{
+    width: 42%;
+    height: 42%;
+    display: inline-block;  
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.photo-3{
+    width: 42%;
+    height: 42%;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.photo-4{
+    width: 42%;
+    height: 42%;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.box-hobbies-text {
+    background-color: rgba(245, 245, 245, 0.692);
+    width: 40vw;
+    height: 80vh;
+    border-radius: 15px;
+}
+
+.my-hobbies {
+    padding: 15px ;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 26px;
+}
 
 /* ----------------CONTACT-SECTION------------------ */
+#contact {
+    height: 100vh;
+    background-image: url(/imgs/background.jpg);
+    background-size: 100vmax;
+}
+
+.father-box-contact {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 90px;
+    gap: 40px;
+}
+
+#name {
+    width: 27vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#email {
+    width: 27vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#message {
+    width: 57vw;
+    height: 50vh;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.text-name {
+    background-color:  #4D98B8;
+    color: white;
+    border:  #0D4F6B solid 2px;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 3px 3px;
+}
+
+.text-email{
+    background-color:  #4D98B8;
+    color: white;
+    border: #0D4F6B solid 2px;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 3px 3px;
+}
+
+.text-message {
+    background-color: #4D98B8;
+    color: white;
+    border: #0D4F6B solid 2px;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 3px 3px;
+}
+
+.box-break {
+    flex-basis: 100%;
+    height: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#button-submit {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 30px;
+}
 
 /* -----------------FOOTER--------------------- */

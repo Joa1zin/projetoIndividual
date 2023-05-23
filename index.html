@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet" />
-        <link rel="icon" href="/imgs/bullfinch.png" />
+        <link rel="icon" href="./imgs/bullfinch.png" />
         <title>My page</title>
     </head>
 
@@ -47,51 +47,72 @@
             <section id="home">
                 <div class="box-home">
                     <div class="box-border-photo">
-                        <img class="my-photo" src="/imgs/Minha foto.jpeg">
+                        <img class="my-photo" src="./imgs/Minha foto.jpeg">
                     </div>
-                    <h1 id="home-text">Welcome to my page!</h1>
+                    <h1 id="home-text">Boas-vindas à minha página!</h1>
                 </div>
             </section>
 
             <section id="user">
                 <div class="father-box-user">
                     <div class="box-user-infos">
-                        <p class="my-infos">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum aliquid excepturi error officia, odio nemo exercitationem, maiores laboriosam earum tempore aspernatur vitae animi dolor ipsam reiciendis quod labore facilis deserunt?
+                        <p class="my-infos"> Me chamo João Victor Mota Machado, tenho 21 anos e sou natural de Apiaí-SP. Concluí o ensino médio em 2019 e cursei Engenharia da Computação por quase 1 ano em duas faculdades diferentes. Hoje me encontro morando em Curitiba-PR, faço o curso de Matemática Industrial na UFPR e também faço parte da turma Códigos do Amanhã, um projeto criado pela EBANX em parceria da Resilia Educação com o intuito de formar novos talentos para ingressar no mercado de trabalho. Sou uma pessoa muito sociável e adoro conversar, tenho anseio pela vida e por viver a mesma da melhor maneira possível, afinal só temos uma. Espero futuramente me tornar um Dev Web FullStack de qualidade para expor minhas ideias e ajudar a sociedade de alguma forma através da programação.
                         </p>
                     </div>
 
-                    <div class="box-border-photo">
-                        <img class="my-photo-2" src="/imgs/Minha foto.jpeg">
+                    <div class="box-border-photo-2">
+                        <img class="my-photo-2" src="./imgs/shikamaru.png" alt="Foto do Shikamaru criança">
                     </div>
-
                 </div>
                 
             </section>
 
             <section id="hobbies">
-                <div class="box-photo-hobbies">
+                <div class="father-box-hobbies">
+                    <div class="box-hobbies-photo">
+                        <img class="photo-1" src="./imgs/mini pato music.jpg" alt="">
+                        <img class="photo-2" src="./imgs/joystick.jpg" alt="">
+                        <img class="photo-3" src="./imgs/pipoca.jpg" alt="">
+                        <img class="photo-4" src="./imgs/mini pato sk8.jpg" alt="">
+                    </div>
+                        
+                    <div class="box-hobbies-text">
+                        <p class="my-hobbies">Sou alguém que gosta de explorar e entender a arte por trás das coisas, por isso curto muito assistir filmes, séries e animes, adoro ouvir música e também de jogar alguns joguinhos. Desde criança sempre fui muito ligado nas tecnologias emergentes e gosto de explorar esse mundo. Comprei um skate no final de 2022 de um parceiro e estou me inserindo nesse estilo de vida que é o skateboard, nunca pensei que andaria de skate e ia me interessar pelo mesmo, mas acabei indo em alguns eventos por causa de um amigo e graças a ele comecei a entender essa cultura e a admirar o cenário. Também gosto muito de sair, socializar e passar um tempo com minha futura esposa que se chama Ana Liah. Graças ao curso do Resilia, também estou desenvolvendo o hábito de desenvolver páginas web e também programar. Isso vem se tornando algo que cada vez mais algo que gosto de fazer e sempre fico ansioso para buscar um conhecimento novo para aplicar em meus códigos.
+                        </p>
+                    </div>
 
                 </div>
             </section>
 
             <section id="contact">
-                <div class="box-contact">
+                <div class="father-box-contact">
                     <div class="box-name">
-                        <form id="name"></form>
+                        <form id="name">
+                            <label class="text-name" for="name">Nome</label>
+                            <input type="text" id="name" placeholder="Insira seu nome">
+                        </form>
                     </div>
                         
                     <div class="box-email">
-                        <form id="email"></form>
+                        <form id="email">
+                            <label class="text-email" for="email">Email</label>
+                            <input type="text" id="email" placeholder="Insira seu email">
+                        </form>
                     </div>
                         
                     <div class="box-message">
-                        <form id="message"></form>
+                        <form id="message">
+                            <label class="text-message" for="message">Mensagem</label>
+                            <input type="text" id="message" placeholder="Insira sua mensagem">
+                            
+                        </form>
                     </div>
-                    <button type="button" onclick="alert('Form sent!')">Submit</button>
+
+                    <div class="box-break">
+                        <button id="button-submit" type="button" onclick="alert('Enviado!')">Enviar</button>
+                    </div>
                 </div>
             </section>
-
         </main>
 
         <footer>
