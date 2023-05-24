@@ -36,7 +36,7 @@ header {
 /* -----------------HOME-SECTION------------ */
 #home {
     height: 100vh;
-    background-image: url(./imgs/background.jpg);
+    background-image: url(../imgs/background.jpg);
     background-size: 100vmax;
 }
 .box-home {
@@ -70,7 +70,7 @@ header {
 /* ----------------USER-SECTION------------------ */
 #user {
     height: 100vh;
-    background-image: url(./imgs/background.jpg);
+    background-image: url(../imgs/background.jpg);
     background-size: 100vmax;
     
 }
@@ -114,7 +114,7 @@ header {
 /*----------------HOBBIES-SECTION-----------------*/
 #hobbies {
     height: 100vh;
-    background-image: url(./imgs/background.jpg);
+    background-image: url(../imgs/background.jpg);
     background-size: 100vmax;
 }
 
@@ -186,7 +186,7 @@ header {
 /* ----------------CONTACT-SECTION------------------ */
 #contact {
     height: 100vh;
-    background-image: url(./imgs/background.jpg);
+    background-image: url(../imgs/background.jpg);
     background-size: 100vmax;
 }
 
