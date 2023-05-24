@@ -12,9 +12,7 @@ body,html {
 header {
     background-color: #0D4F6B; 
     border-radius: 25px;
-    padding: 10px 15px;
     position: fixed; 
-    margin-left: 43%;
 }
 
 .box-buttons {
@@ -263,3 +261,271 @@ header {
 }
 
 /* -----------------FOOTER--------------------- */
+
+#footer {
+    background-color: #0D4F6B; 
+    position: fixed;
+}
+
+/* -----------TRANSITIONS----------- */
+
+.list-buttons {
+    transition: all 0.5s;
+}
+
+.list-buttons:hover {
+    filter: drop-shadow(5px 3px 2px rgba(0,0,0,.5));
+}
+
+.photo-1:hover {
+    transition: all 0.5s;
+    transform: scale(1.2);
+    filter: drop-shadow(5px 3px 2px rgba(0,0,0,.5));
+}
+
+.photo-2:hover {
+    transition: all 0.5s;
+    transform: scale(1.2);
+    filter: drop-shadow(5px 3px 2px rgba(0,0,0,.5));    
+}
+
+.photo-3:hover {
+    transition: all 0.5s;
+    transform: scale(1.2);
+    filter: drop-shadow(5px 3px 2px rgba(0,0,0,.5));
+}
+
+.photo-4:hover {
+    transition: all 0.5s;
+    transform: scale(1.2);
+    filter: drop-shadow(5px 3px 2px rgba(0,0,0,.5));
+}
+
+/*-------------------MEDIA QUERIES------------------ */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    #home {
+        background-size: auto;
+    }
+
+    .box-user-infos {
+        width: auto;
+    }
+    .my-infos {
+        font-size: 12px;
+        width: auto;
+    }
+
+    #user {
+        background-size: auto;
+    }
+
+    .father-box-hobbies {
+        width: auto;
+    }
+    
+    .box-hobbies-photo {
+        width: 80px;
+        height: 190px;
+    }
+    .box-hobbies-text {
+        width: 280px;
+    }
+    .my-hobbies {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .photo-1{
+        width: 30px;
+        height: 30px;
+        display: inline;
+        border-radius: 15px;
+        margin: 5px;
+    }
+    
+    .photo-2{
+        width: 30px;
+        height: 30px;
+        display: inline; 
+        border-radius: 15px;
+        margin: 5px;
+    }
+    
+    .photo-3{
+        width: 30px;
+        height: 30px;
+        display: inline;
+        border-radius: 15px;
+        margin: 5px;
+    }
+    
+    .photo-4{
+        width: 30px;
+        height: 30px;
+        display: inline;
+        border-radius: 15px;
+        margin: 5px;
+    }
+
+    #hobbies {
+        background-size: auto;
+    }
+
+    #contact {
+        background-size: auto;
+    }
+
+    }
+    
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    #home {
+        background-size: auto;
+    }
+
+    .box-user-infos {
+        width: auto;
+    }
+    .my-infos {
+        font-size: 12px;
+        width: auto;
+    }
+
+    #user {
+        background-size: auto;
+    }
+
+    .father-box-hobbies {
+        width: auto;
+    }
+    
+    .box-hobbies-photo {
+        width: 80px;
+        height: 190px;
+    }
+    .box-hobbies-text {
+        width: 280px;
+    }
+    .my-hobbies {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .photo-1{
+        width: 30px;
+        height: 30px;
+        display: inline;
+        border-radius: 15px;
+        margin: 5px;
+    }
+    
+    .photo-2{
+        width: 30px;
+        height: 30px;
+        display: inline; 
+        border-radius: 15px;
+        margin: 5px;
+    }
+    
+    .photo-3{
+        width: 30px;
+        height: 30px;
+        display: inline;
+        border-radius: 15px;
+        margin: 5px;
+    }
+    
+    .photo-4{
+        width: 30px;
+        height: 30px;
+        display: inline;
+        border-radius: 15px;
+        margin: 5px;
+    }
+
+    #hobbies {
+        background-size: auto;
+    }
+
+    #contact {
+        background-size: auto;
+    }
+
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+    #home {
+        background-size: auto;
+    }
+
+    .box-user-infos {
+        width: auto;
+    }
+    .my-infos {
+        font-size: 20px;
+        width: auto;
+    }
+
+    #user {
+        background-size: auto;
+    }
+
+    .father-box-hobbies {
+        width: auto;
+    }
+    
+    .box-hobbies-photo {
+        width: 100px;
+        height: 320px;
+    }
+    .box-hobbies-text {
+        width: auto;
+        height: auto;
+    }
+    .my-hobbies {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .photo-1{
+        width: 60px;
+        height: 60px;
+        display: inline;
+        border-radius: 15px;
+        margin: 5px;
+    }
+    
+    .photo-2{
+        width: 60px;
+        height: 60px;
+        display: inline; 
+        border-radius: 15px;
+        margin: 5px;
+    }
+    
+    .photo-3{
+        width: 60px;
+        height: 60px;
+        display: inline;
+        border-radius: 15px;
+        margin: 5px;
+    }
+    
+    .photo-4{
+        width: 60px;
+        height: 60px;
+        display: inline;
+        border-radius: 15px;
+        margin: 5px;
+    }
+
+    #hobbies {
+        background-size: auto;
+    }
+
+    #contact {
+        background-size: auto;
+    }
+
+    }
